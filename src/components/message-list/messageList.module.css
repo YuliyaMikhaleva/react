@@ -1,0 +1,77 @@
+.messageList {
+  color: #1dacd6;
+  border-left: 0;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: auto;
+}
+.title {
+  color: black;
+  text-align: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.text {
+  color: black;
+  display: block;
+  justify-self: flex-end;
+}
+
+.blockMessage {
+  box-sizing: border-box;
+  max-width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #b2dfee;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+}
+.blockMessageBot {
+  background-color: rgba(0, 0, 0, 0.08);
+  margin: 0 0 10px auto;
+}
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 93vh;
+}
+
+.message {
+  color: black;
+}
+
+.userName {
+  font-weight: bold;
+  color: black;
+}
+
+.date {
+  text-align: end;
+  font-size: 10px;
+  margin: 0;
+}
+
+.textMessage {
+  margin: 0;
+}
+
+.iconEdit{
+  margin: 0;
+  text-align: end;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.iconEdit:hover{
+  color: #007cad;
+}
+
+.iconEdit:active{
+  color: black;
+}

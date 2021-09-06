@@ -1,0 +1,91 @@
+.pageProfile {
+  background-color: #b2dfee;
+  height: 100vh;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.profile {
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.profile span {
+  font-weight: bold;
+  color: #007cad;
+}
+.profileTitle {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.profileBtn {
+  margin: 10px auto;
+  display: block;
+  border: none;
+  background-color: #b2dfee;
+  border-radius: 10px;
+}
+
+.profileBtn:hover {
+  background-color: #007cad;
+}
+.profileBtn:active {
+  background-color: #b2dfee;
+}
+
+.profileLogo {
+  margin: 0 auto;
+  display: block;
+}
+
+.btnToChat {
+  text-align: center;
+  display: block;
+  font-family: Roboto;
+  margin: 15px auto;
+  border: none;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnToChat:hover {
+  background-color: #007cad;
+  color: white;
+}
+
+.btnToChat:active {
+  background-color: white;
+  color: black;
+}
+
+.btnEditSave {
+  display: block;
+  margin: 5px auto;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnEditSave:hover {
+  background-color: #007cad;
+  color: white;
+}
+
+.btnEditSave:active {
+  background-color: white;
+  color: black;
+}
+
+.input {
+  border-radius: 6px;
+  border: 1px solid #b2dfee;
+  margin: 5px;
+  box-sizing: border-box;
+  padding: 2px 5px;
+}

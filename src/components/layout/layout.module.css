@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.app {
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  /*min-height: 440px;*/
+  height: 94vh;
+  min-height: 440px;
+}
+
+.header {
+  background-color: #b2dfee;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.headerTitle {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.message {
+  background-color: yellow;
+}
+
+.buttonMessage {
+  margin: 5px;
+}

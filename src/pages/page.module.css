@@ -1,0 +1,88 @@
+.title {
+  color: #007cad;
+  text-align: center;
+  display: block;
+  margin: 40vh auto 0;
+  font-size: 20px;
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main {
+  margin: auto;
+}
+
+.error404 {
+  text-align: center;
+  /*margin: 40vh 0;*/
+}
+
+.pageWelcome {
+  margin: 0;
+  height: 100vh;
+  background-color: #b2dfee;
+}
+
+.welcomeText {
+  text-align: center;
+  background-color: #b2dfee;
+  margin: 0;
+  display: block;
+  padding: 45vh 0 0 0;
+  font-family: Roboto;
+  color: #007cad;
+}
+
+.welcomeBtn {
+  text-align: center;
+  display: block;
+  font-family: Roboto;
+  margin: 15px auto;
+  border: none;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.welcomeBtn:hover {
+  background-color: #007cad;
+  color: white;
+}
+
+.welcomeBtn:active {
+  background-color: white;
+  color: black;
+}
+
+.btnQuery{
+  background-color: #b2dfee;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.btnQuery:hover{
+  background-color: #007cad;
+  color: white;
+}
+
+.btnQuery:active{
+  background-color: #b2dfee;
+  color: black;
+}
+
+.hr{
+  margin: 0;
+}
+
+.gistsBlock{
+  margin: 10px;
+}
+
+.spinner{
+  margin: 300px 300px;
+  color: #b2dfee;
+}

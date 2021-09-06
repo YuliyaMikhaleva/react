@@ -1,0 +1,60 @@
+.header {
+  background-color: #b2dfee;
+  min-height: 55px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+  width: 100%;
+}
+
+.btn {
+  margin: auto;
+}
+
+.btnToCab {
+  display: block;
+  font-family: "Roboto";
+  /*margin: 8px 8px 0 8px;*/
+  border: none;
+  min-width: 140px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  background-color: white;
+  color: #007cad;
+  text-decoration: none;
+}
+
+.btnToCab:hover {
+  background-color: #007cad;
+  color: white;
+}
+
+.btnToCab:active {
+  background-color: white;
+  color: #007cad;
+}
+
+.user{
+  margin: 0;
+  font-weight: bold;
+}
+
+.userName{
+  width: 20%;
+  height: auto;
+  font-size: 14px;
+  margin: auto 10px auto auto;
+  color: white;
+  text-align: right;
+}

@@ -1,0 +1,124 @@
+.chatList {
+  padding: 20px 4px 4px 4px;
+  box-sizing: border-box;
+  background-color: #b2dfee;
+  /*border-radius: 10px;*/
+}
+.title {
+  text-align: center;
+  color: black;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.listItem {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  /*background-color: darkgray;*/
+  color: white;
+  text-align: left;
+  min-width: 50px;
+  font-size: 10px;
+}
+
+.listItem span {
+  font-size: 10px;
+}
+.buttonAdd {
+  width: 85%;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+.buttonAdd:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.listItemLink {
+  text-decoration: none;
+}
+.listItemLink div {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+/*.listItemLink div:hover {*/
+/*  background-color: #6c757d;*/
+/*}*/
+.chatName span {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  margin: 0;
+}
+
+.chatList_listItem__1mE9X {
+  font-size: 10px;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  color: #007cad;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #007cad;
+  color: white;
+}
+
+.btn:active {
+  background-color: white;
+  color: #007cad;
+}
+
+.iconDelete{
+  text-align: end;
+  display: block;
+  color: #b2dfee;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 5px;
+}
+
+.iconDelete:hover{
+  color: white;
+}
+
+.iconDelete:active{
+  color: #b2dfee;
+}
+
+.iconEdit{
+  text-align: end;
+  display: block;
+  color: #b2dfee;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 5px;
+}
+
+.iconEdit:hover{
+  color: white;
+}
+
+.iconEdit:active{
+  color: #b2dfee;
+}
+
+.spinner{
+  color:#007cad;
+  margin: 10px 64px;
+  display: flex;
+  justify-content: center;
+}
